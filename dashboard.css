@@ -163,8 +163,82 @@ body{
     background: rgb(229, 223, 223);
     border-radius: 10px;
     padding: 1.2rem;
-    width: 290px;
+    /* margin-left: .5rem; */
+    width: 270px;
     height: 150px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.5s ease-in-out;
+}
+
+.payment-card:hover{
+    transform: translateY(-5px);
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.amount{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.amount-value{
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.icon{
+    color: #fff;
+    padding: .5rem;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    background: red;
+}
+
+.card-detail{
+    font-size: 18px;
+    color: #777;
+    letter-spacing: 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* css color */
+.light-red{
+    background: rgb(251, 233, 233);
+}
+.light-purple{
+    background: rgb(254, 226, 254);
+}
+.light-green{
+    background: rgb(235, 254, 235);
+}
+.light-blue{
+    background: rgb(236, 236, 235);
+}
+.dark-red{
+    background: red;
+}
+.dark-purple{
+    background: purple;
+}
+.dark-green{
+    background: green;
+}
+.dark-blue{
+    background: blue;
 }
