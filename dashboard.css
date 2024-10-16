@@ -189,8 +189,8 @@ body{
 }
 
 .title{
-    font-size: 12px;
-    font-weight: 200;
+    font-size: .875rem;
+    font-weight: 300;
 }
 
 .amount-value{
@@ -211,7 +211,7 @@ body{
 }
 
 .card-detail{
-    font-size: 18px;
+    font-size: 16px;
     color: #777;
     letter-spacing: 4px;
     font-family: 'Courier New', Courier, monospace;
@@ -241,4 +241,63 @@ body{
 }
 .dark-blue{
     background: blue;
+}
+
+/* tabular wrapper Section*/
+
+.tabular-wrapper{
+    background: #fff;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.tabular-container{
+    width: 100%;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead{
+    background: rgba(113, 99, 186, 255);
+    color: #fff;
+}
+
+th{
+    padding: 15px;
+    text-align: left;
+}
+
+tbody{
+    background: #f2f2f2;
+}
+
+td{
+    padding: 15px;
+    font-size: .875rem;
+    color: #333;
+}
+
+tr:nth-child(even){
+    background: #fff;
+}
+
+tfoot{
+    background: rgba(113, 99, 186, 255);
+    font-weight: bold;
+    color: #fff;
+}
+
+tfoot td{
+    padding: 15px;
+    color: #fff;
+}
+
+.table-container button{
+    color: green;
+    background: none;
+    cursor: pointer;
 }
