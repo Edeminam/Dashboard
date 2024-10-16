@@ -91,3 +91,9 @@ body{
     cursor: pointer;
     border-radius: 50%;
 }
+
+img{
+    object-fit: contain;
+    image-rendering: auto;
+    border: 2px solid black;
+}
